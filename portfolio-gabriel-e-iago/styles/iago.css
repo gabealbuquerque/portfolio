@@ -8,7 +8,6 @@
 *{
     margin: 0;
     padding: 0;
-    text-align: center;
 }
 a{
     text-decoration: none;
@@ -20,7 +19,7 @@ body{
     
 }
 #foto{
-    border-radius: 20px;
+    border-radius: 50%;
     overflow: hidden;
     height: 400px;
     width: 400px;
@@ -37,6 +36,9 @@ header{
 }
 li{
     list-style-type: none;
+    width: 500px;
+    margin-right: auto;
+    margin-left: auto;
 }
 main{
     margin-left: 20px;
@@ -53,13 +55,15 @@ nav{
 }
 p{
     color: #0D21A1;
+    text-align: center;
+    width: 500px;
 }
 .paginas{
     list-style-type: none;
     
 }
 #pag-nav{
-    width: 30vw;
+    width: 40%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -97,4 +101,27 @@ input{
 }
 #msg{
     height: 50px;
+}
+#foto{
+    text-align: left;
+}
+h2{
+    text-align: center;
+}
+#ft{
+    width: 100%;
+}
+.box{
+    border: 2px solid var(--color1);
+    padding: 20px 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.idiomas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.paginas{
+    margin-right: 10px;
 }
