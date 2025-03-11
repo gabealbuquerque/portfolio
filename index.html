@@ -11,14 +11,17 @@
 <body>
     <header>
         <!-- Dentro do cabeçalho há um bloco de navegação que permite o usuário navegar entre os tópicos da própria página. O logotipo da Impacta possui navegação para a página inicial em todas as páginas. -->
-          <a href="index.html"><img src="imagens/imagens-impacta/impacta2-logo.png" alt="Logo Faculdade Impacta Tecnologia" height="50px" width="180px" id="foto-impacta"></a>
+        <a href="index.html"><img src="imagens/imagens-impacta/impacta2-logo.png" alt="Logo Faculdade Impacta Tecnologia" height="50px" width="180px" id="foto-impacta"></a>  
         <nav>
-            <button><a href="#Grupo">Grupo</a></button>
-            <button><a href="#Projeto">Sobre</a></button>
-            <button><a href="#Divisao">Organização</a></button>
-            <button><a href="#Requisitos">Requisitos</a></button>
-            <button><a href="gabriel.html">Portfólio do <strong>Gabriel</strong></a></button>
-            <button><a href="iago.html"><strong>Portfólio do Iago</strong></a></button>
+            <button><a href="#Grupo">GRUPO</a></button>
+            <button><a href="#Projeto">SOBRE</a></button>
+            <button><a href="#Divisao">ORGANIZAÇÃO</a></button>
+            <button><a href="#Requisitos">REQUISITOS</a></button>
+            <button><a href="gabriel.html">PORTFÓLIO DO GABRIEL</a></button>
+            <button><a href="iago.html">PORTFÓLIO DO IAGO</a></button>
+            <button><a href="#Requisitos"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-square-fill" viewBox="0 0 16 16">
+                <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm6.5 4.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5a.5.5 0 0 1 1 0"/>
+              </svg></a></button>
         </nav>
     </header>
     <main>
@@ -27,36 +30,35 @@
         <section id="Grupo">
             <!-- As tags abbr indicam o significado de uma determinada sigla ou tag de forma oculta -->
             <h1>Portfólio - Grupo 4</h1>
-            <p>Seja bem-vindo! Este é um projeto desenvolvido durante as aulas de Desenvolvimento WEB. O site foi projetado pelos estudantes Gabriel de Albuquerque Vasconcelos e Iago Rozales Mahiques do curso de <abbr title="Análise e Desenvolvimento de Sistemas">ADS</abbr> da <abbr title="Faculdade Impacta Tecnologia">FIT</abbr>.</p>
+            <p>Seja bem-vindo! Este é um projeto desenvolvido durante as aulas de Desenvolvimento WEB. O site foi projetado pelos estudantes <a href="gabriel.html">Gabriel de Albuquerque Vasconcelos</a> e <a href="iago.html">Iago Rozales Mahiques</a> do curso de <abbr title="Análise e Desenvolvimento de Sistemas">ADS</abbr> da <abbr title="Faculdade Impacta Tecnologia">FIT</abbr>.</p>
         </section>
         <article id="Projeto">
             <h2>Sobre o Projeto</h2>
-            <p>O projeto foi criado com o intuito de realizar um portfólio <strong>totalmente em <abbr title="HyperText Markup Language" lang="en">HTML</abbr></strong>, buscando deixar o código o mais semântico possível e organizado. O Portfólio de Gabriel contou com tags como <em>&lt;picture&gt;</em> e <em>&lt;source&gt;</em>, ambas utilizadas em conjunto para tornar sua imagem pessoal flexível.</p>
+            <p>O projeto foi criado com o intuito de realizar um portfólio totalmente em <abbr title="HyperText Markup Language" lang="en">HTML</abbr>, buscando deixar o código o mais semântico possível e organizado. O Portfólio de <a href="gabriel.html">Gabriel</a> contou com tags como <em>&lt;picture&gt;</em> e <em>&lt;source&gt;</em>, ambas utilizadas em conjunto para tornar sua imagem pessoal flexível.</p>
             <!-- A tag picture é responsável por tornar a imagem flexível em 3 tamanhos: grande, média e pequena para melhorar a visualização de qualquer tela -->
             <picture>
-                <source media="(max-width: 550px)" srcset="imagens/imagens-fundo/fundo-p.jpg" type="image/jpeg">
-                <source media="(max-width: 700px)" srcset="imagens/imagens-fundo/fundo-m.jpg" type="image/jpeg">
-                <img src="imagens/imagens-fundo/fundo-g.jpg" alt="Imagem Flexível">
+                <source media="(max-width: 600px)" srcset="imagens/imagens-fundo/fundo-p-removebg-preview.png" type="image/jpeg">
+                <img src="imagens/imagens-fundo/fundo-g-removebg-preview.png" alt="Imagem Flexível">
             </picture>
         </article>
         <article id="Divisao">
             <h2>Como o Portfólio foi organizado?</h2>
-            <p>O portfólio, tanto de Gabriel quanto de Iago, foi dividido da seguinte maneira e com a seguinte ordem: </p>
+            <p>O portfólio, tanto de <a href="gabriel.html">Gabriel</a> quanto de <a href="iago.html">Iago</a>, foi dividido da seguinte maneira e com a seguinte ordem: </p>
             <!-- A tag ol foi usada para definir uma espécie de sumário indicando a padronização do portfólio -->
             <ol>
-                <li>Quem é (Gabriel/Iago)</li>
-                <li>Experiência</li>
-                <li>Formação acadêmica</li>
-                <li>Licenças e Certificados</li>
-                <li>Idiomas</li>
-                <li>Redes Sociais</li>
-                <li>Entre em contato</li>
-                <li>Navegue pelas páginas</li>
+                <li><span>Quem é (<a href="gabriel.html">Gabriel</a>/<a href="iago.html">Iago</a>)</span></li>
+                <li><span>Experiência</span></li>
+                <li><span>Formação acadêmica</span></li>
+                <li><span>Licenças e Certificados</span></li>
+                <li><span>Idiomas</span></li>
+                <li><span>Redes Sociais</span></li>
+                <li><span>Entre em contato</span></li>
+                <li><span>Navegue pelas páginas</span></li>
             </ol>
         </article>
         <article id="Requisitos">
             <h2>Requisitos mínimos</h2>
-            <p>Foi definido pelo professor, desenvolvedor e mestrando em Engenharia de Software, Caio Eduardo do Prado Ireno, como requisito mínimo para o Portfólio o uso das seguintes tags HTML: </p>
+            <p>Foi definido pelo professor, desenvolvedor e mestrando em Engenharia de Software, <a href="https://portifolio-one-psi-80.vercel.app/" target="_blank">Caio Eduardo do Prado Ireno</a>, como requisito mínimo para o Portfólio o uso das seguintes tags <abbr title="HyperText Markup Language">HTML</abbr>: </p>
             <ul">
                 <!-- Foi usado a tag abbr junto a tag de lista não ordenada para trazer ao usuário a função de cada uma das tags que foram usadas no protfólio. -->
                 <li><abbr title="Tag HTML utilizada para marcar o cabeçalho de um site.">&lt;header&gt;</abbr></li>
@@ -74,6 +76,9 @@
         <!-- Dentro do rodapé da página inicial, foi deixado 2 links para permitir ao usuário navegar ao portfólio do Gabriel e do Iago. -->
             <aside>
                 Desenvolvido por <a href="gabriel.html" rel="self">Gabriel de A. Vasconcelos</a> e <a href="iago.html" rel="self">Iago R. Mahiques</a>.
+                <button><a href="index.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-square-fill" viewBox="0 0 16 16">
+                    <path d="M2 16a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2zm6.5-4.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 1 0"/>
+                  </svg></a></button>
             </aside>
         </section>
     </footer>
