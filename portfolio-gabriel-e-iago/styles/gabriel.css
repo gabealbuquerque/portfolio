@@ -37,7 +37,7 @@ header {
 
 header > nav {
     text-align: center;
-    margin-right: 200px;
+    margin-right: 230px;
     padding-bottom: 5px;
     padding-top: 5px;
 }
@@ -227,7 +227,9 @@ abbr:hover {
 
 #foto-impacta {
     padding: 1px;
+    padding-right: 0px;
     margin: 1px;
+    display: inline-block;
 }
 
 button {
