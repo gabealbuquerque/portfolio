@@ -41,8 +41,8 @@ button:active {
 
 header a {
     text-decoration: none;
-    color: var(--cor2);
-    
+    color: var(--cor3);
+    text-align: center;
 }
 
 header a:hover {
@@ -50,18 +50,21 @@ header a:hover {
 }
 
 header a:active {
-    color: var(--cor3);
+    color: var(--cor1);
 }
 
 header > nav {
-    margin: 4px;
-    padding: 2px;
+    margin-right: 300px;
     text-align: center;
+    padding-bottom: 15px;
 }
+
 
 #foto-impacta {
     padding: 1px;
+    padding-right: 0px;
     margin: 1px;
+    display: inline-block;
 }
 
 
@@ -129,12 +132,20 @@ main a:hover {
 }
 
 main a:active {
-    color: var(--cor2);
+    color: var(--cor0);
 }
 
 main li {
     color: var(--cor1);
     line-height: 1.2em;
+}
+
+li a {
+    color: var(--cor0);
+}
+
+li a:active{
+    color: var(--cor1);
 }
 
 main span {

@@ -35,8 +35,11 @@ header {
     padding: 2px;
 }
 
-header nav {
+header > nav {
     text-align: center;
+    margin-right: 200px;
+    padding-bottom: 5px;
+    padding-top: 5px;
 }
 
 header a {
