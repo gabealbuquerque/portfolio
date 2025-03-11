@@ -31,13 +31,11 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-top: 10px;
-    padding: 2px;
 }
 
-header > nav {
+header nav {
     text-align: center;
-    margin-right: 200px;
+    margin-right: 10px;
     padding-bottom: 5px;
     padding-top: 5px;
 }
