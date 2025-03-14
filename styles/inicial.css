@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Ledger&display=swap');
+
+:root {
+    --cor0: #32408C;
+    --cor1: #46547e;
+    --cor2: #D5E5F2;
+    --cor3: #899FCE;
+
+    --fonte-paragrafo: 'Ledger', serif;
+}
+
+body {
+    background-color: var(--cor0);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header button {
+    background-color: var(--cor0);
+    border: 0px;
+    font-size: 1.1em;
+    margin: auto;
+    padding: auto;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+header a {
+    text-decoration: none;
+    color: var(--cor2);
+    text-align: center;
+}
+
+header a:hover {
+    font-weight: bold;
+}
+
+header a:active {
+    color: var(--cor3);
+}
+
+header > nav {
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+
+#foto-impacta {
+    padding: 1px;
+    padding-right: 0px;
+    margin: 1px;
+}
+
+
+/* MAIN */
+
+main {
+    background-color: var(--cor3);
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 1px;
+    padding-bottom: 12px;
+    border-radius: 10px;
+    margin: auto;
+    min-width: 280px;
+    max-width: 600px;
+       
+}
+
+main h1, h2 {
+    color: var(--cor0);
+}
+
+
+main abbr {
+    text-decoration: none;  
+}
+
+#Grupo abbr:hover {
+    border-radius: 5px 0px 5px 0px;
+    padding: 1.5px;
+    background-color: var(--cor1);
+    color: var(--cor2);
+    font-weight: bold;
+}
+
+#Grupo abbr > a:hover {
+    color: var(--cor2);
+}
+
+#Grupo abbr > a:active {
+    color: var(--cor3);
+}
+
+#Projeto abbr:hover {
+    background-color: var(--cor1);
+    color: var(--cor2);
+    font-weight: bold;
+    border-radius: 5px 0px 5px 0px;
+    padding: 1.5px;
+}
+
+#Projeto abbr > a:hover {
+    color: var(--cor2);
+}
+
+#Projeto abbr > a:active {
+    color: var(--cor3);
+}
+
+
+#Requisitos abbr > a:hover {
+    color: var(--cor2);
+}
+
+#Requisitos abbr > a:active{
+    color: var(--cor3);
+}
+
+
+#Requisitos > p > abbr:hover {
+        background-color: var(--cor1);
+        color: var(--cor2);
+        font-weight: bold;
+        border-radius: 5px 0px 5px 0px;
+        padding: 1.5px;
+    }
+
+main p {
+    font-family: var(--fonte-paragrafo);
+    color: var(--cor1);
+}
+
+main a {
+    text-decoration: none;
+    color: var(--cor1);
+}
+
+main a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    color: var(--cor2);
+}
+
+main a:active {
+    color: var(--cor0);
+}
+
+main li {
+    color: var(--cor1);
+    line-height: 1.2em;
+}
+
+li a {
+    color: var(--cor0);
+}
+
+li a:active{
+    color: var(--cor1);
+}
+
+main span {
+    color: var(--cor0);
+}
+
+main img {
+    width: 100%;
+    border-radius: 10px;
+    margin: auto;
+    display: block;
+}
+
+/* FOOTER */
+
+footer > aside {
+    text-align: center;
+    color: var(--cor2);
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--cor2);
+}
+
+footer a:hover {
+    font-weight: bold;
+}
+
+footer a:active {
+    color: var(--cor3);
+}
+
+footer > aside > button{
+    background-color: var(--cor4);
+    border: none;
+    padding: 6px;
+}
+
+footer > aside > a{
+    text-decoration: none;
+    color: var(--cor2);
+}
+
+footer > aside > a:hover {
+    font-weight: bold;
+}
+
+
+footer > aside > a:active {
+    color: var(--cor3);
+}
