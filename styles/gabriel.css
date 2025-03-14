@@ -67,8 +67,11 @@ main {
     margin: auto;
     min-width: 280px;
     max-width: 600px;
+}
+
+#Contato {
     background-image: url(../imagens/imagens-fundo/momo-studio--TFVxwWnyaI-unsplash-removebg-preview.png);
-    background-size: 200px;
+    background-size: 150px;
     background-repeat: no-repeat;
     background-position: right bottom;
 }
@@ -164,8 +167,9 @@ h3 {
 
 }
 #Academico abbr:hover {
-    background-color: var(--cor0);
-    color: var(--cor3);
+    background-color: #546679;
+    font-weight: bold;
+    color: var(--cor2);
 }
 
 #Academico {
