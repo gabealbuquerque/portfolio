@@ -147,33 +147,24 @@ img{
     height: 50px;
 }
 
-
+/* Smartphones (portrait and landscape) ----------- */
 @media only screen 
-and (min-device-width:320px) 
-and (max-device-width:480px)  {
-
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
     #foto{
         border-radius: 50%;
         overflow: hidden;
-        height: 200px;
-        width: 200px;
+        height: 400px;
+        width: 400px;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
-
-    #pag-nav{
-        width: 40%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        margin-left: 10%;
-    }
-    #redes{
-        width: 10%;
-        display: flex;
-        justify-content: space-between;
+    li{
+        list-style-type: none;
+        width: 500px;
         margin-right: auto;
         margin-left: auto;
     }
-
     input{
         width: 200px;
         margin-right: auto;
@@ -183,12 +174,25 @@ and (max-device-width:480px)  {
         border-radius: 5px;
         border: 1px solid var(--color1);
     }
-
+    #msg{
+        height: 50px;
+    }
+    .box{
+        border: 2px solid var(--color1);
+        padding: 20px 10px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .idioma{
+        width: 500px;
+    }
+    .nav{
+        width: 350px;
+    }
     img{
         height: 50px;
         width: 50px;
     }
-
     #redes{
         margin-left: 40%;
     }
@@ -196,14 +200,397 @@ and (max-device-width:480px)  {
         width: 180px;
         height: 50px;
     }
+
+
+}
     
-}
-@media only screen and (min-width:480px)  {
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+    #foto{
+        border-radius: 50%;
+        overflow: hidden;
+        height: 400px;
+        width: 400px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    li{
+        list-style-type: none;
+        width: 500px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    input{
+        width: 200px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        border-radius: 5px;
+        border: 1px solid var(--color1);
+    }
+    #msg{
+        height: 50px;
+    }
+    .box{
+        border: 2px solid var(--color1);
+        padding: 20px 10px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .idioma{
+        width: 500px;
+    }
+    .nav{
+        width: 350px;
+    }
+    img{
+        height: 50px;
+        width: 50px;
+    }
+    #redes{
+        margin-left: 40%;
+    }
+    .logo{
+        width: 180px;
+        height: 50px;
+    }
 
 }
-@media only screen and (min-width:600px)  {
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+    #foto{
+        border-radius: 50%;
+        overflow: hidden;
+        height: 400px;
+        width: 400px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    li{
+        list-style-type: none;
+        width: 500px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    input{
+        width: 200px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        border-radius: 5px;
+        border: 1px solid var(--color1);
+    }
+    #msg{
+        height: 50px;
+    }
+    .box{
+        border: 2px solid var(--color1);
+        padding: 20px 10px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .idioma{
+        width: 500px;
+    }
+    .nav{
+        width: 350px;
+    }
+    img{
+        height: 50px;
+        width: 50px;
+    }
+    #redes{
+        margin-left: 40%;
+    }
+    .logo{
+        width: 180px;
+        height: 50px;
+    }
 
 }
-@media only screen and (min-width:801px)  {
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+    #foto{
+        border-radius: 50%;
+        overflow: hidden;
+        height: 400px;
+        width: 400px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    li{
+        list-style-type: none;
+        width: 500px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    input{
+        width: 200px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        border-radius: 5px;
+        border: 1px solid var(--color1);
+    }
+    #msg{
+        height: 50px;
+    }
+    .box{
+        border: 2px solid var(--color1);
+        padding: 20px 10px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .idioma{
+        width: 500px;
+    }
+    .nav{
+        width: 350px;
+    }
+    img{
+        height: 50px;
+        width: 50px;
+    }
+    #redes{
+        margin-left: 40%;
+    }
+    .logo{
+        width: 180px;
+        height: 50px;
+    }
+
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+    #foto{
+        border-radius: 50%;
+        overflow: hidden;
+        height: 400px;
+        width: 400px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    li{
+        list-style-type: none;
+        width: 500px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    input{
+        width: 200px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        border-radius: 5px;
+        border: 1px solid var(--color1);
+    }
+    #msg{
+        height: 50px;
+    }
+    .box{
+        border: 2px solid var(--color1);
+        padding: 20px 10px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .idioma{
+        width: 500px;
+    }
+    .nav{
+        width: 350px;
+    }
+    img{
+        height: 50px;
+        width: 50px;
+    }
+    #redes{
+        margin-left: 40%;
+    }
+    .logo{
+        width: 180px;
+        height: 50px;
+    }
+
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+    #foto{
+        border-radius: 50%;
+        overflow: hidden;
+        height: 400px;
+        width: 400px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    li{
+        list-style-type: none;
+        width: 500px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    input{
+        width: 200px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        border-radius: 5px;
+        border: 1px solid var(--color1);
+    }
+    #msg{
+        height: 50px;
+    }
+    .box{
+        border: 2px solid var(--color1);
+        padding: 20px 10px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .idioma{
+        width: 500px;
+    }
+    .nav{
+        width: 350px;
+    }
+    img{
+        height: 50px;
+        width: 50px;
+    }
+    #redes{
+        margin-left: 40%;
+    }
+    .logo{
+        width: 180px;
+        height: 50px;
+    }
+
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+    #foto{
+        border-radius: 50%;
+        overflow: hidden;
+        height: 400px;
+        width: 400px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    li{
+        list-style-type: none;
+        width: 500px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    input{
+        width: 200px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        border-radius: 5px;
+        border: 1px solid var(--color1);
+    }
+    #msg{
+        height: 50px;
+    }
+    .box{
+        border: 2px solid var(--color1);
+        padding: 20px 10px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .idioma{
+        width: 500px;
+    }
+    .nav{
+        width: 350px;
+    }
+    img{
+        height: 50px;
+        width: 50px;
+    }
+    #redes{
+        margin-left: 40%;
+    }
+    .logo{
+        width: 180px;
+        height: 50px;
+    }
+
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+    #foto{
+        border-radius: 50%;
+        overflow: hidden;
+        height: 400px;
+        width: 400px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    li{
+        list-style-type: none;
+        width: 500px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    input{
+        width: 200px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        border-radius: 5px;
+        border: 1px solid var(--color1);
+    }
+    #msg{
+        height: 50px;
+    }
+    .box{
+        border: 2px solid var(--color1);
+        padding: 20px 10px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .idioma{
+        width: 500px;
+    }
+    .nav{
+        width: 350px;
+    }
+    img{
+        height: 50px;
+        width: 50px;
+    }
+    #redes{
+        margin-left: 40%;
+    }
+    .logo{
+        width: 180px;
+        height: 50px;
+    }
 
 }
