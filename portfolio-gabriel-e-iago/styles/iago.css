@@ -18,14 +18,7 @@ body{
     color: var(--color2);
     
 }
-#foto{
-    border-radius: 50%;
-    overflow: hidden;
-    height: 400px;
-    width: 400px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
+
 header{
     display: flex;
     justify-content:space-between;
@@ -35,12 +28,7 @@ header{
     margin-right: 10px;
     
 }
-li{
-    list-style-type: none;
-    width: 500px;
-    margin-right: auto;
-    margin-left: auto;
-}
+
 main{
     margin-left: 20px;
     
@@ -91,18 +79,8 @@ p{
     display: flex;
     flex-direction: column;
 }
-input{
-    width: 200px;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    border-radius: 5px;
-    border: 1px solid var(--color1);
-}
-#msg{
-    height: 50px;
-}
+
+
 #foto{
     text-align: left;
 }
@@ -112,12 +90,7 @@ h2{
 #ft{
     width: 100%;
 }
-.box{
-    border: 2px solid var(--color1);
-    padding: 20px 10px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
+
 .idiomas{
     display: flex;
     flex-direction: column;
@@ -146,36 +119,95 @@ img{
     width: 180px;
     height: 50px;
 }
+.box{
+    border: 2px solid var(--color1);
+    padding: 20px 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+ul{
+    list-style-type: none;
+}
+
+@media only screen 
+and (max-width : 319px){
+    #foto{
+        
+        overflow: hidden;
+        height: 100px;
+        width: 100px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    li{
+        list-style-type: none;
+        width: 125px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    input{
+        width: 100px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 5px;
+        border-radius: 5px;
+        border: 1px solid var(--color1);
+    }
+    #msg{
+        height: 60px;
+    }
+    .box{
+        border: 2px solid var(--color1);
+        padding: 20px 10px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .idioma{
+        width: 100px;
+    }
+    img{
+        height: 15px;
+        width: 15px;
+    }
+    #redes{
+        margin-left: 40%;
+    }
+    .nav{
+        width: 100%;
+    }
+    .logo{
+        width: 0px;
+        height: 0px;
+    }
+}
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 480px) {
+and (min-width : 320px) 
+and (max-width : 480px) {
     #foto{
-        border-radius: 50%;
         overflow: hidden;
-        height: 400px;
-        width: 400px;
+        height: 100px;
+        width: 100px;
         margin-top: 10px;
         margin-bottom: 10px;
     }
     li{
         list-style-type: none;
-        width: 500px;
+        width: 125px;
         margin-right: auto;
         margin-left: auto;
     }
     input{
-        width: 200px;
+        width: 100px;
         margin-right: auto;
         margin-left: auto;
         margin-top: 5px;
-        margin-bottom: 5px;
         border-radius: 5px;
         border: 1px solid var(--color1);
     }
     #msg{
-        height: 50px;
+        height: 60px;
     }
     .box{
         border: 2px solid var(--color1);
@@ -184,46 +216,45 @@ and (max-device-width : 480px) {
         margin-bottom: 15px;
     }
     .idioma{
-        width: 500px;
+        width: 100px;
     }
-    .nav{
-        width: 350px;
-    }
+    
     img{
-        height: 50px;
-        width: 50px;
+        height: 15px;
+        width: 15px;
     }
     #redes{
         margin-left: 40%;
     }
-    .logo{
-        width: 180px;
-        height: 50px;
+    .nav{
+        width: 100%;
     }
-
+    .logo{
+        width: 0px;
+        height: 0px;
+    }
 
 }
     
-
-/* Smartphones (landscape) ----------- */
 @media only screen 
-and (min-width : 321px) {
+and (min-width : 481px) 
+and (max-width : 767px){
     #foto{
         border-radius: 50%;
         overflow: hidden;
-        height: 400px;
-        width: 400px;
+        height: 320px;
+        width: 320px;
         margin-top: 10px;
         margin-bottom: 10px;
     }
     li{
         list-style-type: none;
-        width: 500px;
+        width: 400px;
         margin-right: auto;
         margin-left: auto;
     }
     input{
-        width: 200px;
+        width: 160px;
         margin-right: auto;
         margin-left: auto;
         margin-top: 5px;
@@ -232,7 +263,7 @@ and (min-width : 321px) {
         border: 1px solid var(--color1);
     }
     #msg{
-        height: 50px;
+        height: 40px;
     }
     .box{
         border: 2px solid var(--color1);
@@ -241,214 +272,49 @@ and (min-width : 321px) {
         margin-bottom: 15px;
     }
     .idioma{
-        width: 500px;
-    }
-    .nav{
-        width: 350px;
-    }
-    img{
-        height: 50px;
-        width: 50px;
-    }
-    #redes{
-        margin-left: 40%;
-    }
-    .logo{
-        width: 180px;
-        height: 50px;
-    }
-
-}
-
-/* Smartphones (portrait) ----------- */
-@media only screen 
-and (max-width : 320px) {
-    #foto{
-        border-radius: 50%;
-        overflow: hidden;
-        height: 400px;
         width: 400px;
-        margin-top: 10px;
-        margin-bottom: 10px;
     }
-    li{
-        list-style-type: none;
-        width: 500px;
-        margin-right: auto;
-        margin-left: auto;
-    }
-    input{
-        width: 200px;
-        margin-right: auto;
-        margin-left: auto;
-        margin-top: 5px;
-        margin-bottom: 5px;
-        border-radius: 5px;
-        border: 1px solid var(--color1);
-    }
-    #msg{
-        height: 50px;
-    }
-    .box{
-        border: 2px solid var(--color1);
-        padding: 20px 10px;
-        margin-top: 15px;
-        margin-bottom: 15px;
-    }
-    .idioma{
-        width: 500px;
-    }
-    .nav{
-        width: 350px;
-    }
+    
     img{
-        height: 50px;
-        width: 50px;
+        height: 40px;
+        width: 40px;
     }
     #redes{
         margin-left: 40%;
     }
-    .logo{
-        width: 180px;
-        height: 50px;
-    }
-
-}
-
-/* iPads (portrait and landscape) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) {
-    #foto{
-        border-radius: 50%;
-        overflow: hidden;
-        height: 400px;
-        width: 400px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-    li{
-        list-style-type: none;
-        width: 500px;
-        margin-right: auto;
-        margin-left: auto;
-    }
-    input{
-        width: 200px;
-        margin-right: auto;
-        margin-left: auto;
-        margin-top: 5px;
-        margin-bottom: 5px;
-        border-radius: 5px;
-        border: 1px solid var(--color1);
-    }
-    #msg{
-        height: 50px;
-    }
-    .box{
-        border: 2px solid var(--color1);
-        padding: 20px 10px;
-        margin-top: 15px;
-        margin-bottom: 15px;
-    }
-    .idioma{
-        width: 500px;
-    }
     .nav{
-        width: 350px;
-    }
-    img{
-        height: 50px;
-        width: 50px;
-    }
-    #redes{
-        margin-left: 40%;
+        width: 70%;
     }
     .logo{
-        width: 180px;
-        height: 50px;
+        width: 0px;
+        height: 0px;
     }
-
+    a{
+        margin-right: 20px;
+    }
 }
 
-/* iPads (landscape) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : landscape) {
-    #foto{
-        border-radius: 50%;
-        overflow: hidden;
-        height: 400px;
-        width: 400px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-    li{
-        list-style-type: none;
-        width: 500px;
-        margin-right: auto;
-        margin-left: auto;
-    }
-    input{
-        width: 200px;
-        margin-right: auto;
-        margin-left: auto;
-        margin-top: 5px;
-        margin-bottom: 5px;
-        border-radius: 5px;
-        border: 1px solid var(--color1);
-    }
-    #msg{
-        height: 50px;
-    }
-    .box{
-        border: 2px solid var(--color1);
-        padding: 20px 10px;
-        margin-top: 15px;
-        margin-bottom: 15px;
-    }
-    .idioma{
-        width: 500px;
-    }
-    .nav{
-        width: 350px;
-    }
-    img{
-        height: 50px;
-        width: 50px;
-    }
-    #redes{
-        margin-left: 40%;
-    }
-    .logo{
-        width: 180px;
-        height: 50px;
-    }
-
-}
 
 /* iPads (portrait) ----------- */
 @media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : portrait) {
+and (min-width : 768px) 
+and (max-width : 1024px){
     #foto{
         border-radius: 50%;
         overflow: hidden;
-        height: 400px;
-        width: 400px;
+        height: 320px;
+        width: 320px;
         margin-top: 10px;
         margin-bottom: 10px;
     }
     li{
         list-style-type: none;
-        width: 500px;
+        width: 400px;
         margin-right: auto;
         margin-left: auto;
     }
     input{
-        width: 200px;
+        width: 160px;
         margin-right: auto;
         margin-left: auto;
         margin-top: 5px;
@@ -457,7 +323,7 @@ and (orientation : portrait) {
         border: 1px solid var(--color1);
     }
     #msg{
-        height: 50px;
+        height: 40px;
     }
     .box{
         border: 2px solid var(--color1);
@@ -466,21 +332,78 @@ and (orientation : portrait) {
         margin-bottom: 15px;
     }
     .idioma{
-        width: 500px;
+        width: 400px;
     }
     .nav{
-        width: 350px;
+        width: 280px;
     }
     img{
-        height: 50px;
-        width: 50px;
+        height: 40px;
+        width: 40px;
     }
     #redes{
         margin-left: 40%;
     }
     .logo{
-        width: 180px;
-        height: 50px;
+        width: 144px;
+        height: 40px;
+    }
+    a{
+        margin-right: 20px;
+    }
+}
+
+@media only screen 
+and (min-width : 1025px) 
+and (max-width : 1223px){
+    #foto{
+        border-radius: 50%;
+        overflow: hidden;
+        height: 320px;
+        width: 320px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    li{
+        list-style-type: none;
+        width: 400px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    input{
+        width: 160px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        border-radius: 5px;
+        border: 1px solid var(--color1);
+    }
+    #msg{
+        height: 40px;
+    }
+    .box{
+        border: 2px solid var(--color1);
+        padding: 20px 10px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .idioma{
+        width: 400px;
+    }
+    .nav{
+        width: 280px;
+    }
+    img{
+        height: 40px;
+        width: 40px;
+    }
+    #redes{
+        margin-left: 40%;
+    }
+    .logo{
+        width: 144px;
+        height: 40px;
     }
 
 }
