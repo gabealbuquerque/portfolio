@@ -38,11 +38,11 @@ header nav {
     margin-right: auto;
     padding-bottom: 5px;
     padding-top: 5px;
-    margin-left: 50px;
+    margin-left: auto;
 }
 
 header a {
-    color: var(--cor0);
+    color: var(--cor2);
     font-weight: none;
 }
 
@@ -52,44 +52,7 @@ header a:hover {
 }
 
 header a:active {
-    color: var(--cor3);
-}
-
-footer {
-    border-radius: 8px;
-    flex-direction: row;
-    justify-content: space-between;
-    padding-top: 10px;
-}
-
-footer aside {
-    text-align: center;
-    font: 1em var(--fonte-paragrafo);
-    color: var(--cor2);
-    line-height: 1.5;
-    padding: 20px;
-}
-
-footer nav {
-    text-align: center;
-}
-
-footer a {
-    color: var(--cor0);
-    font-weight: none;
-}
-
-footer a:hover {
-    font-weight: bold;
-    color: var(--cor0);
-}
-
-footer a:active {
-    color: var(--cor3);
-}
-
-footer > aside > button{
-    padding: 6px;
+    color: var(--cor1);
 }
 
 
@@ -104,6 +67,9 @@ main {
     margin: auto;
     min-width: 280px;
     max-width: 600px;
+}
+
+#Contato {
     background-image: url(../imagens/imagens-fundo/momo-studio--TFVxwWnyaI-unsplash-removebg-preview.png);
     background-size: 200px;
     background-repeat: no-repeat;
@@ -121,7 +87,6 @@ main strong {
     color: var(--cor2);
     font-weight: bold;
 }
-
 
 
 p {
@@ -181,6 +146,50 @@ h3 {
             */
 }
 
+#Academico a{
+    color: var(--cor4);
+}
+
+#Academico a:active{
+    color: var(--cor2);
+}
+
+#Academico h3 > a:hover {
+    text-decoration: underline;
+}
+
+#Academico p > a{
+    color: var(--cor2);
+}
+
+#Academico p > a:active{
+    color: var(--cor1);
+
+}
+#Academico abbr:hover {
+    background-color: #546679;
+    font-weight: bold;
+    color: var(--cor2);
+}
+
+#Academico {
+    background-color: #546679;
+    border-radius: 8px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+#Sobre abbr > a:hover {
+    color: var(--cor3);
+    text-decoration: underline;
+}
+
+#Sobre abbr > a:active{
+    color: var(--cor4);
+}
+
 h4 {
     font: bolder 1.2em var(--fonte-titulo);
     color: var(--cor0);
@@ -194,7 +203,9 @@ li {
 
 .destaque {
     color: var(--cor2);
+    font-style: none;
 }
+
 
 
 abbr, .italico {
@@ -256,4 +267,41 @@ button:active {
 
 div {
     text-align: center;
+}
+
+footer {
+    border-radius: 8px;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+footer aside {
+    text-align: center;
+    font: 1em var(--fonte-paragrafo);
+    color: var(--cor2);
+    line-height: 1.5;
+    padding: 20px;
+}
+
+footer nav {
+    text-align: center;
+}
+
+footer a {
+    color: var(--cor2);
+    font-weight: none;
+}
+
+footer a:hover {
+    font-weight: bold;
+    color: var(--cor0);
+}
+
+footer a:active {
+    color: var(--cor1);
+}
+
+footer > aside > button{
+    padding: 6px;
 }

@@ -30,8 +30,8 @@ header button {
     background-color: var(--cor0);
     border: 0px;
     font-size: 1.1em;
-    margin: 2px;
-    padding: 2px;
+    margin: auto;
+    padding: auto;
 }
 
 button:active {
@@ -40,7 +40,7 @@ button:active {
 
 header a {
     text-decoration: none;
-    color: var(--cor3);
+    color: var(--cor2);
     text-align: center;
 }
 
@@ -49,12 +49,12 @@ header a:hover {
 }
 
 header a:active {
-    color: var(--cor1);
+    color: var(--cor3);
 }
 
 header > nav {
     margin-right: auto;
-    margin-left: 140px;
+    margin-left: auto;
     text-align: center;
     padding-bottom: 5px;
     padding-top: 5px;
@@ -100,6 +100,14 @@ main abbr {
     font-weight: bold;
 }
 
+#Grupo abbr > a:hover {
+    color: var(--cor2);
+}
+
+#Grupo abbr > a:active {
+    color: var(--cor3);
+}
+
 #Projeto abbr:hover {
     background-color: var(--cor1);
     color: var(--cor2);
@@ -107,6 +115,24 @@ main abbr {
     border-radius: 5px 0px 5px 0px;
     padding: 1.5px;
 }
+
+#Projeto abbr > a:hover {
+    color: var(--cor2);
+}
+
+#Projeto abbr > a:active {
+    color: var(--cor3);
+}
+
+
+#Requisitos abbr > a:hover {
+    color: var(--cor2);
+}
+
+#Requisitos abbr > a:active{
+    color: var(--cor3);
+}
+
 
 #Requisitos > p > abbr:hover {
         background-color: var(--cor1);
@@ -129,6 +155,7 @@ main a {
 main a:hover {
     text-decoration: underline;
     font-weight: bold;
+    color: var(--cor2);
 }
 
 main a:active {
@@ -173,11 +200,10 @@ footer a {
 
 footer a:hover {
     font-weight: bold;
-    
 }
 
 footer a:active {
-    color: var(--cor1);
+    color: var(--cor3);
 }
 
 footer > aside > button{
