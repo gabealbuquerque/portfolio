@@ -38,7 +38,7 @@ header nav {
     margin-right: auto;
     padding-bottom: 5px;
     padding-top: 5px;
-    margin-left: 50px;
+    margin-left: auto;
 }
 
 header a {
@@ -54,44 +54,6 @@ header a:hover {
 header a:active {
     color: var(--cor3);
 }
-
-footer {
-    border-radius: 8px;
-    flex-direction: row;
-    justify-content: space-between;
-    padding-top: 10px;
-}
-
-footer aside {
-    text-align: center;
-    font: 1em var(--fonte-paragrafo);
-    color: var(--cor2);
-    line-height: 1.5;
-    padding: 20px;
-}
-
-footer nav {
-    text-align: center;
-}
-
-footer a {
-    color: var(--cor0);
-    font-weight: none;
-}
-
-footer a:hover {
-    font-weight: bold;
-    color: var(--cor0);
-}
-
-footer a:active {
-    color: var(--cor3);
-}
-
-footer > aside > button{
-    padding: 6px;
-}
-
 
 
 main {
@@ -152,7 +114,6 @@ a:active {
 }
 
 .lista:hover {
-    color:var(--cor0);
     text-decoration: underline;
 }
 
@@ -259,4 +220,41 @@ button:active {
 
 div {
     text-align: center;
+}
+
+footer {
+    border-radius: 8px;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+footer aside {
+    text-align: center;
+    font: 1em var(--fonte-paragrafo);
+    color: var(--cor2);
+    line-height: 1.5;
+    padding: 20px;
+}
+
+footer nav {
+    text-align: center;
+}
+
+footer a {
+    color: var(--cor0);
+    font-weight: none;
+}
+
+footer a:hover {
+    font-weight: bold;
+    color: var(--cor0);
+}
+
+footer a:active {
+    color: var(--cor3);
+}
+
+aside > a:hover {
+    text-decoration: underline;
 }
