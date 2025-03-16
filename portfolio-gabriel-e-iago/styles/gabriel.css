@@ -258,3 +258,16 @@ footer a:active {
 aside > a:hover {
     text-decoration: underline;
 }
+
+section > h3 > a {
+    color: var(--cor4);
+}
+
+section > h3 > a:hover {
+    text-decoration: underline;
+    color: var(--cor4);
+}
+
+section > h3 > a:active {
+    color: var(--cor1);
+}
